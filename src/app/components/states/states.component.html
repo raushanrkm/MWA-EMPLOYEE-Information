@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+<div class="list-group product-bread-a">
+</div>
+<ul class="list-group product-category-all">
+
+  <span>State </span>
+  <select (change)="trackStateChange($event)">
+    <option *ngFor="let stat of states" class="list-group-item" [value]="stat">
+      <a href="/">{{stat}}</a>
+    </option>
+  </select>
+
+
+  <span>City </span>
+  <select (change)="trackStateChange($event)">
+    <option *ngFor="let stat of states" class="list-group-item" [value]="stat">
+      <a href="/">{{stat}}</a>
+    </option>
+  </select>
+
+  <div class="form-group">
+    <span>Zipcode </span>
+    <select (change)="trackStateChange($event)">
+      <option *ngFor="let stat of states" class="list-group-item" [value]="stat">
+        <a href="/">{{stat}}</a>
+      </option>
+    </select>
+  </div>
+</ul>

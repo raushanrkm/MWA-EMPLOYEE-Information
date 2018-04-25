@@ -1,0 +1,28 @@
+.badge{
+ background:none;   
+}
+.badge i{
+ color:#5d82c1;   
+}
+.product-category-all li{
+  
+    border:1px solid #c1c1c2;    
+}
+.product-category-all li{
+ -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+.icon-data{
+    font-size:25px !important;
+    margin-top:-4px;
+}
+.product-bread-a{
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    
+}
+.product-bread-a a{
+    color:#718ac3;
+}

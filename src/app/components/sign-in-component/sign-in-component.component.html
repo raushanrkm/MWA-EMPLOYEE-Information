@@ -1,0 +1,8 @@
+<form novalidate (ngSubmit)="onSubmit()" #f="ngForm">
+    <label>email</label><input type="text" name ="email" [(ngModel)]= "username" value="">
+    <label>password</label> <input  type="password" name="password" [(ngModel)]="password" value="">
+    <input type="submit" value="Sign In">
+    </form>
+<a [routerLink]='["signup"]'>SignUp</a>
+
+<router-outlet></router-outlet>

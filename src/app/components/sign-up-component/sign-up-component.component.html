@@ -1,0 +1,9 @@
+
+<h2>Register your record</h2>
+
+
+<form novalidate (ngSubmit)="onSubmit()" #f="ngForm">
+    <label>email</label><input type="text" name="email" [(ngModel)]= "email" value=""> <p>{{email}}</p>
+    <label>password</label> <input  type="password" name="password" [(ngModel)]="password" value="">
+    <input type="submit" value="signUp">
+    </form>
